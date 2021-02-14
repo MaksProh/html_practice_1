@@ -1,0 +1,192 @@
+:root {
+  --baccolor: #d47877;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav,
+.nav-list {
+  display: flex;
+}
+
+.nav {
+  justify-content: flex-start;
+  padding: 20px 0;
+  align-items: flex-end;
+}
+
+.nav-list {
+  margin-top: 0;
+  margin-left: 185px;
+  margin-bottom: 0;
+}
+
+.nav-list li {
+  margin-left: 50px;
+}
+
+.logo-nav,
+.logo-text {
+  display: inline-block;
+}
+
+.logo-nav {
+  text-align: center;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.hero {
+  margin-top: 200px;
+}
+
+.hero-text {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.hero-link {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: var(--baccolor);
+  margin-top: 55px;
+  margin-right: 55px;
+}
+
+.btn,
+.about-btn {
+  margin-left: 15px;
+  background: none;
+  border: none;
+}
+
+.about {
+  margin-top: 370px;
+  text-align: center;
+}
+
+.about-head {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.about-tittle {
+  margin-top: 40px;
+}
+
+.about-btn {
+  display: inline-block;
+  margin-top: 70px;
+  background-color: var(--baccolor);
+  padding: 20px 50px;
+  border-radius: 32px;
+}
+
+.img-grid {
+  justify-content: center;
+  display: flex;
+  padding: 140px 0;
+}
+
+.img-grid li {
+  margin: 0 5px;
+  display: block;
+}
+
+.img-grid img {
+  width: 476px;
+  height: 570px;
+}
+
+.about-popular {
+  display: flex;
+  justify-content: center;
+}
+
+.about-popular img {
+  width: 320px;
+  height: 264px;
+  border: 1px solid white;
+  margin: 0 auto;
+}
+
+.pop-head {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.pop-desc {
+  text-align: center;
+  width: 650px;
+  margin: 0 auto;
+}
+
+.pop-cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 370px;
+}
+
+.pop-cards li {
+  border: 1px solid #e3e6ea;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 115px;
+}
+
+.pop-cards:nth-child(2) {
+  margin: 0 30px;
+}
+
+.card-head {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card-desc {
+  text-align: center;
+  margin-bottom: 45px;
+  min-width: 280px;
+}
+
+.card-btn {
+  color: #ffffff;
+  display: inline-block;
+  padding: 18px 30px;
+  border-radius: 32px;
+  background-color: #30383b;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card img {
+  justify-content: center;
+}
